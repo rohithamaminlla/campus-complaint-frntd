@@ -1,0 +1,84 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+  color: #222;
+}
+
+header {
+  background: #173b70;
+  color: white;
+  text-align: center;
+  padding: 24px 12px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+header p {
+  margin: 0;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+.form-section,
+.complaints-section {
+  background: white;
+  padding: 24px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000012;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 11px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background: #176b45;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #105437;
+}
+
+.complaint-card {
+  border: 1px solid #ddd;
+  border-left: 5px solid #176b45;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+}
